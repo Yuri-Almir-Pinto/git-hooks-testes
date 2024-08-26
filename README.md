@@ -35,8 +35,6 @@ Renomeie o arquivo 'pre-commit.sample' para apenas 'pre-commit', e após isso, e
 código bash dentro:
 
 ```bash
-# Nota: O próximo comentário não é opcional, e deve ser inserido no começo do arquivo.
-
 #!/bin/sh
 
 # Altere o valor dessa string com o caminho para a pasta do projeto.
@@ -44,6 +42,10 @@ PASTA_PROJETO=""
 
 cd $PASTA_PROJETO
 
+# Caso esteja em um sistema Linux, altere todas as barras invertidas '\' no script para '/'.
+
+# O caminho a seguir está assumindo um sistema windows. Caso esteja em um sistema linux, altere para o caminho apropriado do script de ativação. Normalmente seria '/env/bin/activate'.
+# É possível que 'source' não seja reconhecido em sistemas linux. Utilize '.' no lugar, caso seja o seu caso.
 source $PASTA_PROJETO"\env\Scripts\activate"
 
 mkdir -p $PASTA_PROJETO"\results"
