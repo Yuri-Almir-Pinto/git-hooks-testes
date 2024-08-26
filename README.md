@@ -47,7 +47,7 @@ cd $PASTA_PROJETO
 # Caso esteja em um sistema Linux, altere todas as barras invertidas '\' no script para '/'.
 
 # O caminho a seguir está assumindo um sistema windows. Caso esteja em um sistema linux, altere para o caminho apropriado do script de ativação. Normalmente seria '/env/bin/activate'.
-# É possível que 'source' não seja reconhecido em sistemas linux. Utilize '.' no lugar, caso seja o seu caso.
+# É possível que 'source' não seja reconhecido. Utilize '.' no lugar, caso seja o seu caso.
 source $PASTA_PROJETO"\env\Scripts\activate"
 
 mkdir -p $PASTA_PROJETO"\results"
