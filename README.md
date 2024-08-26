@@ -1,7 +1,9 @@
 # Git hooks - Passo a passo
 
 ### 1 - Criar um repositório git
-Crie um repositório git através do comando git init
+Crie um repositório git através do comando git init.
+
+Alternativamente, você pode clonar este projeto também, que possui um simples .gitignore e o arquivo .py com o teste passando.
 
 ### 2 - Criar o projeto
 Para o exemplo, irei utilizar um projeto python simples, apenas com a biblioteca pytest.
