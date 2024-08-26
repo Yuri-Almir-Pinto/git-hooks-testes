@@ -65,7 +65,7 @@ exit 0
 
 ### 4 - Teste o projeto
 
-Altere o projeto de alguma forma, e altere o teste de forma que ele falhe de alguma forma. Ao tentar realizar algum commit
+Agora, altere o teste de forma que ele passe a falhar. Ao tentar realizar algum commit
 com um teste falhando, você ira receber uma mensagem do próprio git, impedindo realizar o commit do projeto enquanto
 tiver algum teste falhando:
 
